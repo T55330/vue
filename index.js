@@ -99,6 +99,7 @@ function getUrl(user,url,cb){
         })
     })
 }
+
 module.exports= {
     getVcode,getViewstate,login,getUrl
 }
