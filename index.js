@@ -1,4 +1,4 @@
-const fs = require('fs')
+﻿const fs = require('fs')
 const https = require('https')
 const cheerio = require('cheerio')
 const querystring = require('querystring')
