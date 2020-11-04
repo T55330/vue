@@ -6,7 +6,6 @@ router.get('/login',(req,res)=>{
 
 })
 
-
 router.get('/vcode',(req,res)=>{
     zfUtils.getViewstate((viewstate)=>{
         req.session.viewstate = viewstate
